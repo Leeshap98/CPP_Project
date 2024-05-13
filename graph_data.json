@@ -1,0 +1,17 @@
+{
+  "vertices": [
+    {"id": 0, "name": "A"},
+    {"id": 1, "name": "B"},
+    {"id": 2, "name": "C"},
+    {"id": 3, "name": "D"},
+    {"id": 4, "name": "E"}
+  ],
+  "arcs": [
+    {"source": 0, "destination": 1, "weight": 4},
+    {"source": 0, "destination": 2, "weight": 1},
+    {"source": 1, "destination": 3, "weight": 2},
+    {"source": 2, "destination": 1, "weight": 3},
+    {"source": 2, "destination": 3, "weight": 5},
+    {"source": 3, "destination": 4, "weight": 3}
+  ]
+}
