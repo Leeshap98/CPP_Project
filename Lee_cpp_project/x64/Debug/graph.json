@@ -1,0 +1,14 @@
+{
+    "vertices": ["A", "B", "C", "D","E"],
+    "arcs": [
+        {"from": "A", "to": "B", "weight": 1},
+        {"from": "A", "to": "C", "weight": 4},
+        {"from": "B", "to": "C", "weight": 20},
+        {"from": "C", "to": "D", "weight": 1},
+        {"from": "B", "to": "D", "weight": 5},
+	{"from": "D", "to": "E", "weight": 5},
+	{"from": "B", "to": "E", "weight": 30}
+
+    ]
+}
+
